@@ -33,5 +33,20 @@
             this.Ds_Merchant_UrlOK = Ds_Merchant_UrlOK;
             this.Ds_Merchant_UrlKO = Ds_Merchant_UrlKO;
         }
+        public PaymentRequest(
+            string Ds_Merchant_MerchantCode,
+            string Ds_Merchant_Terminal,
+            string Ds_Merchant_TransactionType,
+            string Ds_Merchant_Amount,
+            string Ds_Merchant_Currency,
+            string Ds_Merchant_Order)
+        {
+            this.Ds_Merchant_MerchantCode = Ds_Merchant_MerchantCode;
+            this.Ds_Merchant_Terminal = Ds_Merchant_Terminal;
+            this.Ds_Merchant_TransactionType = Ds_Merchant_TransactionType;
+            this.Ds_Merchant_Amount = Ds_Merchant_Amount;
+            this.Ds_Merchant_Currency = Ds_Merchant_Currency;
+            this.Ds_Merchant_Order = Ds_Merchant_Order;
+        }
     }
 }
